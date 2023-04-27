@@ -1,0 +1,68 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 160px 60px;
+    grid-template-areas:
+        ". logo botones"
+        "menu menu menu";
+}
+
+.logo {
+    grid-area: logo;
+    margin: auto;
+}
+
+.botones {
+    grid-area: botones;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin-bottom: 5px;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    border: solid 0.5px;
+    background: #f582ae;
+    color: white;
+}
+
+.menu {
+    grid-area: menu;
+    display: flex;
+    background: #f0e7d2;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+
+li {
+
+    list-style: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+li:hover {
+    border: solid 0.5px;
+    background: #f582ae;
+    color: white;
+}
