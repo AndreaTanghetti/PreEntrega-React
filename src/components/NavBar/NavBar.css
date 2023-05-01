@@ -41,6 +41,8 @@ button:hover {
 .menu {
     grid-area: menu;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background: #f0e7d2;
 }
 
@@ -48,8 +50,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50%;
-    margin: auto;
+width: 60%;
 }
 
 li {

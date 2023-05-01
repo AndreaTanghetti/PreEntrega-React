@@ -17,8 +17,8 @@ const NavBar = () => {
           <li>Productos</li>
           <li>Contacto</li>
         </ul>
-      </nav>
       <CartWidget />
+      </nav>
     </header>
   )
 }
